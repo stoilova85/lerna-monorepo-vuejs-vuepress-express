@@ -1,0 +1,20 @@
+{
+  "name": "lerna-repo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "author": "Silviya Stancheva <silviya.stoilova.ext@carfellows.auto>",
+  "license": "MIT",
+  "resolutions": {
+    "vue": "3.2.33",
+    "vue-server-renderer": "3.2.33"
+  },
+  "devDependencies": {
+    "vue": "2.6.14"
+  }
+}
